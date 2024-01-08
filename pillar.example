@@ -2,7 +2,7 @@ opendkim:
   conf:
     UserID: "opendkim:opendkim"
     KeyTable: "/etc/opendkim/KeyTable"
-    SigningTable: "file:/etc/opendkim/SigningTable"
+    SigningTable: "/etc/opendkim/SigningTable"
     PidFile: "/var/run/opendkim/opendkim.pid"
     Mode: "v"
     Syslog: "yes"
